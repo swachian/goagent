@@ -2955,6 +2955,7 @@ function FindProxyForURLByAutoProxy(url, host) {
     if (dnsDomainIs(host, ".nyt.com") || host == "nyt.com") return "PROXY 127.0.0.1:8087";
     if (dnsDomainIs(host, ".nytco.com") || host == "nytco.com") return "PROXY 127.0.0.1:8087";
     if (dnsDomainIs(host, ".nytimes.com") || host == "nytimes.com") return "PROXY 127.0.0.1:8087";
+    if (dnsDomainIs(host, ".37signals.com") || host == "37signals.com") return "PROXY 127.0.0.1:8087";
     if (host.indexOf("nysingtao.com") >= 0) return "PROXY 127.0.0.1:8087";
     if (dnsDomainIs(host, ".nzchinese.net.nz") || host == "nzchinese.net.nz") return "PROXY 127.0.0.1:8087";
     if (host.indexOf("observechina.net") >= 0) return "PROXY 127.0.0.1:8087";
